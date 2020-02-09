@@ -1,0 +1,31 @@
+app_name: "ZALORA Ice Cream API"
+author: Tapaswini
+app_version: 0.0.1
+app_port: 8080
+
+environment: development
+seed: false
+sql_log_mode: true
+
+secret: "secretKey"
+
+development:
+  db_host: localhost
+  db_port: 5432
+  db_name: icecream
+  db_user: postgres
+  db_password: postgres
+
+staging:
+  db_host: localhost
+  db_port: 5432
+  db_name: icecream
+  db_user: postgres
+  db_password: postgres
+
+production:
+  db_host: localhost
+  db_port: 5432
+  db_name: icecream
+  db_user: postgres
+  db_password: postgres
